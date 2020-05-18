@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<karpiuk.ivan.myvisibilityproject.customViews.FocusAwareScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_text" />
+
+        <karpiuk.ivan.myvisibilityproject.customViews.ItemFocusObservingRecyclerView
+            android:id="@+id/list1"
+            android:name="karpiuk.ivan.myvisibilityproject.ui.list.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".ui.list.ItemFragment"
+            tools:listitem="@layout/fragment_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_text2" />
+
+        <karpiuk.ivan.myvisibilityproject.customViews.ItemFocusObservingRecyclerView
+            android:id="@+id/list2"
+            android:name="karpiuk.ivan.myvisibilityproject.ui.list.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".ui.list.ItemFragment"
+            tools:listitem="@layout/fragment_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_text3" />
+
+        <karpiuk.ivan.myvisibilityproject.customViews.ItemFocusObservingRecyclerView
+            android:id="@+id/list3"
+            android:name="karpiuk.ivan.myvisibilityproject.ui.list.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".ui.list.ItemFragment"
+            tools:listitem="@layout/fragment_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_text4" />
+
+        <karpiuk.ivan.myvisibilityproject.customViews.ItemFocusObservingRecyclerView
+            android:id="@+id/list4"
+            android:name="karpiuk.ivan.myvisibilityproject.ui.list.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".ui.list.ItemFragment"
+            tools:listitem="@layout/fragment_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_text5" />
+
+        <karpiuk.ivan.myvisibilityproject.customViews.ItemFocusObservingRecyclerView
+            android:id="@+id/list5"
+            android:name="karpiuk.ivan.myvisibilityproject.ui.list.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".ui.list.ItemFragment"
+            tools:listitem="@layout/fragment_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_text6" />
+
+        <karpiuk.ivan.myvisibilityproject.customViews.ItemFocusObservingRecyclerView
+            android:id="@+id/list6"
+            android:name="karpiuk.ivan.myvisibilityproject.ui.list.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".ui.list.ItemFragment"
+            tools:listitem="@layout/fragment_item" />
+    </LinearLayout>
+
+</karpiuk.ivan.myvisibilityproject.customViews.FocusAwareScrollView>
